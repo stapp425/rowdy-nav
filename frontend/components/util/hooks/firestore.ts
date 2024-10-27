@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { firestore } from "firebaseConfig"
+import { firestore } from "../../../firebaseConfig"
 import { addDoc, collection, deleteDoc, doc, getDoc, getDocs, Query, QuerySnapshot, updateDoc } from "firebase/firestore"
 import { Obj } from "../types/app.js"
 
